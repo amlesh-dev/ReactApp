@@ -1,0 +1,23 @@
+.boxWrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.inputfield{
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 6px;
+}
+.buttonfield{
+    padding: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 0px;
+}
+.inputButtonWrap{
+    display: flex;
+
+}

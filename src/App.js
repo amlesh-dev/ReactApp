@@ -1,9 +1,11 @@
-function App() {
+import AppRoutes from "./routes/appRoutes";
+
+const App = () => {
   return (
     <>
-      <div>This is home page</div>
+      <AppRoutes />
     </>
   );
-}
+};
 
 export default App;
