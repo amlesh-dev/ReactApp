@@ -3,21 +3,36 @@
     display: flex;
     justify-content: center;
 }
+.BoxStyle{
+    background: #efefef;
+    padding: 50px;
+    border-radius: 10px;
+}
 .inputfield{
-    padding: 10px;
+    padding: 15px;
+    width: 600px;
     border-top-left-radius: 6px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 6px;
 }
 .buttonfield{
-    padding: 10px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 0px;
+    padding: 15px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+    border-bottom-left-radius: 0px !important;
 }
 .inputButtonWrap{
     display: flex;
-
+}
+.textWrap{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.firstWrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }

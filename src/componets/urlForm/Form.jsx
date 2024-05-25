@@ -8,7 +8,9 @@ const Form = () => {
   };
   return (
     <>
-      <h3>Paste the URL to be shortened</h3>
+      <div className={style.firstWrap}>
+        <h3>Paste the URL to be shortened</h3>
+      </div>
       <div className={style.inputButtonWrap}>
         <input
           className={style.inputfield}
@@ -24,6 +26,16 @@ const Form = () => {
         >
           Shorten URL
         </button>
+      </div>
+      <div className={style.textWrap}>
+        <div>
+          <h5>
+            ShortURL is a free tool to shorten URLs and generate short links URL
+          </h5>
+          <h5>
+            shortener allows to create a shortened link making it easy to share
+          </h5>
+        </div>
       </div>
     </>
   );

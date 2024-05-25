@@ -6,10 +6,8 @@ const UrlForm = () => {
   return (
     <>
       <div className={style.boxWrapper}>
-        <Box>
-          <div>
-            <Form />
-          </div>
+        <Box className={style.BoxStyle}>
+          <Form />
         </Box>
       </div>
     </>

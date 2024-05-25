@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light customClass">
         <a className="navbar-brand" href="#">
-          URL Shortener
+          <h4>URL Shortener</h4>
         </a>
       </nav>
     </>
